@@ -1,0 +1,103 @@
+body{
+    background: url(images/232.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arvo, serif;
+    position: relative;
+    min-height: 100vh;
+}
+.logo{
+    height: 30px;
+}
+.navbar-inverse{
+    background: rgba(0,0,0,0.5); 
+}
+.nav li{
+    color: #fff;
+    margin-right: 35px;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.nav li:first-child{
+    margin-left: 35px;
+}
+.nav li:hover{
+    border-bottom: 2px solid #00FFB8; 
+    padding-bottom: 8px;
+    cursor: pointer;
+} 
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 2.5px;
+    margin: 0;
+    padding: 10px;
+}
+.container{
+    max-width: 1000px;
+}
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    color: white;
+}
+.icons p{
+    font-size: 15px;   
+}
+.icons p, .icons h2{
+    letter-spacing: 1.1px;
+}
+.icons{
+    margin-top: 10px;
+}
+.contact{
+    margin-top: 30px;
+}
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 65px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    border: none;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .bodyimage{
+        height: 70px;   
+    }
+    .nav li:first-child{
+        margin-left: 0;
+    }
+    .footer{
+        position: relative;
+        margin-top: 20px
+    }
+}
+@media (max-width: 480px){
+    .bodyimage{
+        height: 70px;   
+    }
+    .nav li:first-child{
+        margin-left: 0;
+    }
+    .footer{
+        position: relative;
+        margin-top: 20px
+    }
+}
